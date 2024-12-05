@@ -1,0 +1,48 @@
+.reward__box {
+    width: 100%;
+    height: 150px;
+
+
+    .reward__box__part {
+        width: 85%;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 75px;
+
+        a {
+            text-decoration: none;
+            width: 70px;
+            height: inherit;
+            color: #644064;
+            font-size: 10px;
+            text-align: center;
+            padding-top: 4px;
+            color:#3F4078;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+
+        }
+
+        .text {
+          font-size: 12px;
+           
+        }
+
+        .menu {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #f0f0f1;
+            opacity: 1;
+            svg{
+                fill: #a1a3a8;
+            }
+        }
+    }
+}
