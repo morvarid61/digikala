@@ -1,5 +1,3 @@
-
-
 header {
     width: 100%;
     height: 110px;
@@ -129,6 +127,7 @@ header {
             height: 100%;
             padding: 0 12px;
             cursor: pointer;
+
             &:hover .megamenu {
                 display: block;
             }
@@ -159,6 +158,7 @@ header {
                 display: none;
                 border-bottom-left-radius: 15px;
                 cursor: pointer;
+
                 .megamenu__list {
                     width: 200px;
                     height: 100%;
@@ -330,6 +330,7 @@ header {
                 color: #F58417;
                 position: relative;
                 right: 300px;
+                cursor: pointer;
 
                 &:hover {
                     .locashen___drp {
