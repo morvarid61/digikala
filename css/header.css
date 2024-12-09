@@ -1,6 +1,4 @@
-body {
-    height: 1000vh;
-}
+
 
 header {
     width: 100%;
@@ -130,7 +128,7 @@ header {
             width: fit-content;
             height: 100%;
             padding: 0 12px;
-
+            cursor: pointer;
             &:hover .megamenu {
                 display: block;
             }
@@ -160,7 +158,7 @@ header {
                 top: 100%;
                 display: none;
                 border-bottom-left-radius: 15px;
-
+                cursor: pointer;
                 .megamenu__list {
                     width: 200px;
                     height: 100%;

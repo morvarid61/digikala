@@ -1,0 +1,70 @@
+.electronic___content {
+    width: 100%;
+    .electronic___content__box {
+        margin: 30px auto;
+        border-radius: 18px;
+        width: 80%;
+        border: 1px solid  rgba(168, 166, 166, 0.164) ;
+        .electronic__swiper {
+            width: 100%;
+            height: 420px;
+            .electronic__slide {
+                display: flex;
+                flex-flow: row wrap;
+                border-left:1px solid  rgba(168, 166, 166, 0.164) ;
+                padding-top: 10px;
+                .electronic__text {
+                    
+                    padding: 15px;
+                    font-size: 12px;
+                    text-align: start;
+                    line-height: 20px;
+                }
+
+                .electronic__img {
+                    width: 100%;
+                    height: 150px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    justify-content: baseline;
+                    gap: 16px;
+                    border-bottom:1px solid  rgba(168, 166, 166, 0.164) ;
+
+                    img {
+                        width: 120px;
+                        height: 150px;
+                        object-fit: contain;
+
+
+                    }
+
+                    span {
+                        width: 1px;
+                        height: 160px;
+                        background-color: rgba(168, 166, 166, 0.164);
+                    }
+                }
+
+                p {
+                    color: #19C2DB;
+                    padding-right:30px ;
+                    line-height: 60px;
+                position: relative;
+                right: 80px;
+                }
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                    position: relative;
+                    top: 23px;
+                    right: 83px;
+                    fill: #19C2DB;
+
+                }
+            }
+
+
+        }
+    }
+}

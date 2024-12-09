@@ -1,7 +1,7 @@
 .popular__container {
     width: 100%;
     padding: 20px;
-
+    cursor: pointer;
     .popular {
         width: 82%;
         height: inherit;

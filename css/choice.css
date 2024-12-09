@@ -1,7 +1,7 @@
 .box__choice__produce {
     width: 100%;
     position: relative;
-
+    cursor: pointer;
     .choice__produce {
         width: 80%;
         height: inherit;

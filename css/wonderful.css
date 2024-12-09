@@ -71,7 +71,7 @@
             position: relative;
             right: 20px;
             top: 20px;
-
+            cursor: pointer;
             span {
                 background-color: azure;
                 padding: 2 10px;
