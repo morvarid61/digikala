@@ -19,3 +19,71 @@
 @import"./electronic.css";
 @import"./footer.css";
 @import"./login.css";
+
+
+
+
+/* @media only screen and(min-width:0) {} */
+
+/* @media only screen and(min-width:767px) {
+   
+} */
+
+@media screen (min-width:768px) and (max-width:1023px) {
+    .Select__city__serch {
+        width: 100px;
+        height: 30px;
+        background-color: #F58417;
+
+        .Select__city {
+            width: 100px;
+            background-color: #FEF6EF;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 12px;
+            color: #F58417;
+
+            cursor: pointer;
+
+            &:hover {
+                .locashen___drp {
+                    display: block;
+                }
+            }
+
+            svg {
+                width: 20px;
+                height: 20px;
+                fill: #F58417;
+                position: relative;
+            }
+
+            span {
+                font-size: 12px;
+
+            }
+
+            .locashen___drp {
+                position: absolute;
+                width: 300px;
+                top: calc(100%);
+                background-color: #474849;
+                border: 2px solid rgb(241, 240, 237);
+                border-radius: 6px;
+                box-shadow: 0 12px 15px #b2b4b7;
+                left: 0;
+                color: #f0f0f1;
+                font-size: 12px;
+                padding: 12px;
+                display: none;
+                z-index: 999999;
+            }
+        }
+
+
+    }
+}
+
+/* @media only screen and(min-width:1023px) {} */
