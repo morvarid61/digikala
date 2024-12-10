@@ -259,13 +259,9 @@ header {
         }
 
         .header__grouping {
-            width: fit-content;
-            height: inherit;
+            width: 1360px;
+            height: 30px;
             display: flex;
-            align-items: center;
-            gap: 16px;
-
-
 
             .line {
                 content: "";
@@ -274,101 +270,114 @@ header {
                 height: 22px;
             }
 
-            .header__Category {
-                width: fit-content;
-                height: 100%;
-                position: relative;
+            .header__Category__box {
+                width: 100%;
+                height: 30px;
+                display: flex;
+                gap: 20px;
 
-                &:hover {
+
+                .header__Category {
+                    position: relative;
+
+                    &:hover {
+                        &::before {
+                            width: 100%;
+
+                        }
+                    }
+
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        text-decoration: none;
+                        color: #62666d;
+
+
+
+                        svg {
+                            width: 15px;
+                            height: 15px;
+                            fill: #62666d;
+
+                        }
+
+                    }
+
                     &::before {
-                        width: 100%;
+                        content: "";
+                        width: 0;
+                        height: 1px;
+                        background-color: red;
+                        display: inline-block;
+                        position: absolute;
+                        bottom: -10px;
+                        transition: 400ms;
 
                     }
-                }
-
-
-                a {
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-                    text-decoration: none;
-                    color: #62666d;
-
-
-
-                    svg {
-                        width: 15px;
-                        height: 15px;
-                        fill: #62666d;
-
-                    }
-
-                }
-
-                &::before {
-                    content: "";
-                    width: 0;
-                    height: 1px;
-                    background-color: red;
-                    display: inline-block;
-                    position: absolute;
-                    bottom: -10px;
-                    transition: 400ms;
 
                 }
 
             }
 
-            .Select__city {
-                height: inherit;
-                background-color: #FEF6EF;
-                border-radius: 20px;
-                display: flex;
-                align-items: center;
-                gap: 4px;
-                padding: 8px 12px;
-                color: #F58417;
-                position: relative;
-                right: 300px;
-                cursor: pointer;
+            .Select__city__serch {
+                width: 200px;
+                height: 30px;
 
-                &:hover {
+                .Select__city {
+                    width: 180px;
+                    background-color: #FEF6EF;
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    padding: 8px 12px;
+                    color: #F58417;
+
+                    cursor: pointer;
+
+                    &:hover {
+                        .locashen___drp {
+                            display: block;
+                        }
+                    }
+
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                        fill: #F58417;
+                        position: relative;
+                    }
+
+                    span {
+                        font-size: 12px;
+
+                    }
+
                     .locashen___drp {
-                        display: block;
+                        position: absolute;
+                        width: 300px;
+                        top: calc(100%);
+                        background-color: #474849;
+                        border: 2px solid rgb(241, 240, 237);
+                        border-radius: 6px;
+                        box-shadow: 0 12px 15px #b2b4b7;
+                        left: 0;
+                        color: #f0f0f1;
+                        font-size: 12px;
+                        padding: 12px;
+                        display: none;
+                        z-index: 999999;
                     }
                 }
 
-                svg {
-                    width: 20px;
-                    height: 20px;
-                    fill: #F58417;
-                    position: relative;
-                }
-
-                span {
-                    font-size: 12px;
-
-                }
-
-                .locashen___drp {
-                    position: absolute;
-                    width: 300px;
-                    top: calc(100%);
-                    background-color: #474849;
-                    border: 2px solid rgb(241, 240, 237);
-                    border-radius: 6px;
-                    box-shadow: 0 12px 15px #b2b4b7;
-                    left: 0;
-                    color: #f0f0f1;
-                    font-size: 12px;
-                    padding: 12px;
-                    display: none;
-                    z-index: 999999;
-                }
             }
 
 
 
         }
+
     }
 }
