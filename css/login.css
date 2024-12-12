@@ -1,0 +1,73 @@
+.login__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+position: relative;
+top: 100px;
+    .login__content__form {
+        width: 400px;
+        height: 484px;
+        border: 1px solid #c2c2c28f;
+        border-radius: 11px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content:space-between;
+        padding: 30px;
+        .login__content__form__logo {
+            svg{
+                width: 108px;
+                height: 85px;
+            }
+           
+        }
+        .login__form__name{
+          font-size: 20px;
+          width: 100%;  
+          font-weight: 100;
+          color: rgb(12,12,51);
+        }
+        .login__for__email{
+            width: 100%;
+color: #3F4064;
+
+        }
+        .login__for__email__input{
+            width: 100%;
+            
+            
+           input{
+            width: 100%;
+            height: 50px;
+            border: 1px solid #EF4056;
+            padding: 10px;
+            border-radius: 11px;
+           }
+           label{
+            color: #EF4056;
+           }
+        }
+        .login__btn{
+            button{
+                padding:13px 155px;
+                border-radius: 11px;
+                background-color: #EF4056;
+                color: aliceblue;
+                border: unset;
+            }
+        }
+        .login__digikala{
+            p{
+                font-size: 12px;
+                font-family: yekan;
+                a{
+                    text-decoration: none;
+                    font-size: 13px;
+                    color: #088EBC;
+                }
+            }
+        }
+    }
+}

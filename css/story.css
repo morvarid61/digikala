@@ -1,0 +1,50 @@
+.slides___top {
+    width: 85%;
+    height: 170px;
+    margin: 0 auto;
+
+    .story {
+        width: 100%;
+        height: 100%;
+
+        .story___col {
+            width: 100%;
+            height: 100%;
+
+            .story___img {
+                width: 100%;
+                height: 110px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                img {
+                    width: 78px;
+                    height: 78px;
+                    border-radius: 50%;
+                    outline-offset: 2px;
+                    outline: 3px solid #8B2DE2;
+
+                }
+            }
+
+            .story___text {
+
+
+
+                p {
+                    font-size: 10px;
+                    font-weight: 200;
+                    font-family: yekan;
+                    padding: 5px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+            }
+        }
+
+    }
+}

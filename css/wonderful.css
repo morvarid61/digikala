@@ -1,0 +1,92 @@
+.box___wonderful {
+    width: 100%;
+    height: 110px;
+    display: flex;
+
+    .wonderful {
+        width: 80%;
+        height: 110px;
+        background-color: #ECEFEE;
+        border-radius: 18px;
+        margin: 17px auto;
+        display: flex;
+        align-items: center;
+
+
+
+        .wonderful0 {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+         span {
+            width: fit-content;
+            padding: 1px 8px;
+            background-color: darkgreen;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            color: white;
+
+
+        } 
+    }
+
+    .part__wonderful {
+        width: 600px;
+        display: flex;
+        flex-flow: row;
+        gap: 10px;
+
+        .part__wonderful1 {
+            width: 180px;
+            height: 80px;
+            border-radius: 50%;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+                border-radius: 50%;
+
+            }
+
+            .wonderful1 {
+                font-size: 12px;
+                padding: 1px 8px;
+                position: relative;
+                bottom: 30px;
+                left: 20px;
+                background-color: darkgreen;
+                border-radius: 30px;
+                color: white;
+            }
+
+
+
+        }
+
+        .wonderful2 {
+            width: 80%;
+            position: relative;
+            right: 20px;
+            top: 20px;
+            cursor: pointer;
+            span {
+                background-color: azure;
+                padding: 2 10px;
+                color: rgb(7, 183, 7);
+                font-size: 12px;
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                    fill: rgb(7, 183, 7);
+                    position: relative;
+                    top: 4px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.brand__swiper__box {
+    width: 80%;
+    height: 224px;
+    margin: 30px auto;
+    display: flex;
+    border: 1px solid #b2b2b277;
+    border-radius: 18px;
+
+    .brand__swiper {
+        width: 100%;
+        height: inherit;
+        margin: 0 auto;
+
+        .brand__taxt {
+            width: 100%;
+            height: calc(224px - 135px);
+
+            h3 {
+                font-size: 18px;
+                font-family: yekan;
+                text-align: center;
+                line-height: 90px;
+            }
+        }
+
+        .brand__box {
+            width: 100%;
+            height: calc(224px - 80px);
+            padding: 25px;
+
+            .brand__img {
+                border-left: 1px solid #a9a8a842;
+            }
+              
+        }
+        
+    }
+   
+}
